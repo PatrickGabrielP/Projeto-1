@@ -3,6 +3,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.relatorio{
+ text-align: center
+}
+  
 .container {
   text-align: left;
   padding: 20px;
