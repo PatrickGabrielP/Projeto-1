@@ -1,15 +1,15 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: rgb(87, 5, 141);
-  color: rgb(253,253,253);
+  background-color: blue;
+  color: red;
 }
 
 .relatorio{
   text-align: center;
 }
 .container {
-  text-align: center;
+  text-align: left;
   padding: 20px;
 }
 
