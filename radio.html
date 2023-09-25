@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
     <title>Player Spotify</title>
 </head>
 <body>
     <div class="container">
         <div class="player">
             <div class="album-cover">
-                <img src="grego.jpg" alt="Chick Hicks" widht="30px">
+                <img src="grego.jpg" alt="Chick Hicks">
             </div>
-            
-     <audio controls>
-	    <source src="musica_1.mp3" type="audio/mpeg">   
-    </audio>
-    <audio controls>
-	    <source src="musica_2.mp3" type="audio/mpeg">   
-    </audio>
-            
+		
             <div class="controls">
                 <button class="prev-button">Anterior</button>
                 <button class="play-button">Play</button>
                 <button class="next-button">Próxima</button>
             </div>
+		
+            <div class="playlist">
+                <audio id="audio-player" controls>
+                    <source src="musica_1.mp3" type="audio/mpeg">
+                    <source src="musica_2.mp3" type="audio/mpeg">
+		    <source src="musica_3.mp3" type="audio/mpeg">
+		    <source src="musica_4.mp3" type="audio/mpeg">
+                </audio>
+		    
+            </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
+
