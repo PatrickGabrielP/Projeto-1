@@ -10,7 +10,8 @@ nextButton.addEventListener('click', playNext);
 let currentTrackIndex = 0;
 
 const playlist = [
-    'musica_1.mp3', // Adicione mais músicas aqui
+    'musica_1.mp3', 'musica_2.mp3','musica_3.mp3','musica_4.mp3','musica_5.mp3',
+    'musica_6.mp3','musica_7.mp3','musica_8.mp3','musica_9.mp3','musica_10.mp3'
 ];
 
 function togglePlay() {
