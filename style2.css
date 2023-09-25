@@ -54,3 +54,8 @@ button:hover {
 .play-button:hover {
     background-color: #1DB954;
 }
+
+audio {
+    position: absolute;
+    top: -9999px;
+}
