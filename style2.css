@@ -1,0 +1,56 @@
+body {
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.player {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.album-cover {
+    width: 200px;
+    height: 200px;
+    background-color: #777;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1DB954;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #1ED760;
+}
+
+.play-button {
+    background-color: #1ED760;
+}
+
+.play-button:hover {
+    background-color: #1DB954;
+}
